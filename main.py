@@ -9,7 +9,7 @@ def multi(a, b):
 
 def divisao(a, b):
     if b == 0:
-        return "Error! Division by zero."
+        return "Erro! Impossível dividir por 0"
     return a / b
 
 def main():
