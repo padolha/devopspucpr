@@ -1,3 +1,11 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"Mensagem:": "Docker local rodando"}
+
 def soma(a, b):
     return a + b
 
