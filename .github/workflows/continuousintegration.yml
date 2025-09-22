@@ -29,4 +29,4 @@ jobs:
       - name: Run Discord Webhook
         uses: Sniddl/discord-commits@v1.6
         with:
-          webhook_url: ${{ secrets.DISCORD_DEVOPS}}              
+          webhook: ${{ secrets.DISCORD_DEVOPS}}      
